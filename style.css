@@ -15,7 +15,7 @@ body{
 
 .result-summary{
     display: flex;
-    width: 550px;
+    width: 600px;
     justify-content: center;
     border-radius: 20px;
     box-shadow: hsla(241, 81%, 54%, 0.057) 9px 8px 26px 0.3px;
@@ -23,7 +23,7 @@ body{
 /* -----------  */
 .result{
     text-align: center;
-    padding: 38px 50px;
+    padding: 50px 66px;
     width: 50%;
     border-radius: 20px;
     background: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
@@ -42,7 +42,7 @@ body{
     background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     color: hsl(241, 100%, 89%);
 
     display: flex;
@@ -52,27 +52,27 @@ body{
 }
 .result-score span{
     color: hsl(0, 0%, 100%);
-    font-size: 46px;
+    font-size: 50px;
     font-weight: 800;
 }
 .grid-flow{
-    margin: 14px 0;
+    margin: 18px 0 14px 0;
     color: hsl(0, 0%, 100%);
-    font-size: 16px;
+    font-size: 18px;
 }
 .grid-flow p{
     color: hsl(241, 100%, 89%);
     font-size: 12px;
+    margin-top: 6px;
 }
 /* --------------  */
 .summary{
     width: 50%;
-    padding: 40px 20px;
+    padding: 50px 30px;
 }
 .section-title{
     margin-top: -6px;
     margin-bottom: 22px;
-    font-size: 16px;
 }
 .summary-item{
     display: flex;
